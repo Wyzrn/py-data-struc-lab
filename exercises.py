@@ -18,3 +18,12 @@ def combine_foods():
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
+
+# Exercise 3: Slicing Tuples
+def slice_foods():
+    foods = ('pizza', 'sushi', 'tacos')
+    last_two_foods = foods[-2:]  # Slice last two items
+    return last_two_foods
+
+# Call the function and print the result
+print('Exercise 3:', slice_foods())
